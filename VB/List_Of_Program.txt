@@ -1,0 +1,9 @@
+1. Make a simple calculator.
+2. Launch rocket when command button is pressed.
+3. Make a time clock(date and time). 
+4. Find the class of the student when age is provided.
+5. Find the division of the student when percent are given from 100.
+6. Find if number is even or odd
+7. Student Resgistration form.
+8. Calculate the Simple Intrest.
+9. Take input from user and change the color of the form background.
