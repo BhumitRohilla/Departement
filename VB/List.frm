@@ -18,9 +18,7 @@ Begin VB.Form Form1
       Begin VB.ListBox List1 
          DataField       =   "1"
          Height          =   4740
-         ItemData        =   "List.frx":0000
          Left            =   7680
-         List            =   "List.frx":0002
          TabIndex        =   8
          Top             =   720
          Width           =   3735
