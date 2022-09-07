@@ -1,0 +1,7 @@
+
+1. Find the class of the student when age is provided
+2. Find the division of the student when percent are given from 100
+3. Find if number is even or odd
+4. Use of listbox
+5. Calculate the Simple Intrest
+6. Take input from user and change the color of the from background
