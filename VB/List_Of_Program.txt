@@ -1,4 +1,4 @@
-1. Make a simple calculator.
+1. Write a program Make a simple calculator.
 2. Launch rocket when command button is pressed.
 3. Make a time clock(date and time). 
 4. Find the class of the student when age is provided.

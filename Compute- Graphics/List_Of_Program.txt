@@ -2,3 +2,6 @@
 2.  Print Random Pixel
 3   Moving car
 4.  Person moving in rain
+5.  Draw different Shapes in VB
+6.  Draw a hut and use different color
+7.  Write a program to draw 3D bar chart
