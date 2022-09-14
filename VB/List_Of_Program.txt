@@ -7,3 +7,4 @@
 7. Student Resgistration form.
 8. Calculate the Simple Intrest.
 9. Take input from user and change the color of the form background.
+10.Find the sum of number using function
