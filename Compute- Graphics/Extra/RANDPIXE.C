@@ -6,7 +6,7 @@ int main(){
 	int gd= DETECT, gm;
 	int x,y,c,i;
 	initgraph(&gd,&gm,"c://TURBOC3//BGI");
-	clrscr();
+	cleardevice();
     for(i=0;i<100;++i){
 	x=rand()%601;
 	y=rand()%501;
