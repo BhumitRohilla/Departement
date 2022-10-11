@@ -4,7 +4,7 @@
 int main(){
 	int gd=DETECT,gm;
 	int xc,yc,x,y,r;
-	int x,y,p;
+	int p;
 	initgraph(&gd,&gm,"C://TURBOC3//BGI");
 	scanf("%d%d%d",&xc,&yc,&r);
 	x=0;
@@ -19,7 +19,6 @@ int main(){
 		putpixel(y+xc,-x+yc,WHITE);
 		putpixel(-y+xc,x+yc,WHITE);
 		putpixel(-y+xc,-x+yc,WHITE);
-
 		if(p<0){
 			x=x+1;
 			p=p+4*x+6;
@@ -29,7 +28,6 @@ int main(){
 			y=y-1;
 			p=p+4*(x-y)+10;
 		}
-
 	}
 	getch();
 }
