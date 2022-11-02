@@ -5,7 +5,7 @@ int main(){
 	int x0,y0,x1,y1,tx,ty;
 	int gd=DETECT,gm;
 	initgraph(&gd,&gm,"C://TURBOC3//BGI");
-	printf("Etner coordinates of first point:\t");
+	printf("Enter coordinates of first point:\t");
 	scanf("%d%d",&x0,&y0);
 	printf("Enter coordinates of second point:\t");
 	scanf("%d%d",&x1,&y1);
@@ -17,5 +17,4 @@ int main(){
 	line(x0+tx,y0+ty,x1+tx,y1+ty);
 	getch();
 	closegraph();
-
 }
