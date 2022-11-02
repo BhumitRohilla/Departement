@@ -32,5 +32,4 @@ int main(){
 	line(a[0],a[1],b[0],b[1]);
 	line(a[0],a[1],c[0],c[1]);
 	getch();
-
 }
