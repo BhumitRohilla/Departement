@@ -10,7 +10,7 @@ Begin VB.Form Form1
    ScaleWidth      =   6960
    StartUpPosition =   3  'Windows Default
    Begin VB.Timer Timer1 
-      Interval        =   4000
+      Interval        =   1000
       Left            =   5520
       Top             =   1200
    End

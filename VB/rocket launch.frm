@@ -6,8 +6,8 @@ Begin VB.Form Form1
    ClientTop       =   465
    ClientWidth     =   9495
    LinkTopic       =   "Form1"
-   ScaleHeight     =   4995
-   ScaleWidth      =   9495
+   ScaleHeight     =   10935
+   ScaleWidth      =   20250
    Begin VB.CommandButton Command1 
       Caption         =   "Command1"
       Height          =   855
