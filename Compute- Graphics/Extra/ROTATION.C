@@ -1,20 +1,32 @@
 #include<stdio.h>
-#include<conio.h>
 #include<graphics.h>
+#include<conio.h>
 #include<math.h>
-#define originx 650/2
-#define originy 450/2
 int main(){
-	int gd=DETECT,gm;
-	int x0=20,y0=400,x1=400,y1=300;
-	double angle[2][2];
-	int Q=45;
-	initgraph(&gd,&gm,"C://TURBOC3//BGI");
-	putpixel(originx,originy,RED);
-	setcolor(GREEN);
-	line(x0/2+originx,y0/2+originy,x1/2+originx,y1/2+originy);
-	angle[0][0]=cos(Q);
-	angle[1][1]=cos(Q);
-	//anticlock wise rotation
-	getch();
+    int gd=DETECT,gm,x1,y1,x2,y2;
+    double s,c, angle;
+    initgraph(&gd,&gm,"C://TURBOC3//BGI");
+    setcolor(RED);
+    printf("Enter coordinates of line: ");
+    scanf("%d%d%d%d",&x1,&y1,&x2,&y2);
+    cleardevice();
+    setbkcolor(WHITE);
+    line(x1,y1,x2,y2);
+    getch();
+    setbkcolor(BLACK);
+    printf("Enter rotation angle: ");
+    scanf("%lf", &angle);
+    setbkcolor(WHITE);
+    c = cos(angle *3.14/180);
+    s = sin(angle *3.14/180);
+    x1 = floor(x1 * c - y1 * s);
+    y1 = floor(x1 * s + y1 * c);
+    x2 = floor(x2 * c -
+    y2 * s);
+    y2 = floor(x2 * s + y2 * c);
+    cleardevice();
+    line(x1, y1 ,x2, y2);
+    printf("%d %d %d %d",x1,y1,x2,y2);
+    getch();
+    closegraph();
 }
