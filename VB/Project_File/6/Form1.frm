@@ -37,20 +37,19 @@ Begin VB.Form Form1
       Top             =   840
       Width           =   5415
       Begin VB.Data Data1 
-         Caption         =   "?????"
          Connect         =   "Access"
          DatabaseName    =   "C:\Users\Bhumit\Documents\GitHub\Departement\VB\Project_File\6\database.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
          Height          =   615
-         Left            =   600
+         Left            =   3600
          Options         =   0
          ReadOnly        =   0   'False
          RecordsetType   =   1  'Dynaset
          RecordSource    =   "STUDENT_TABLE"
-         Top             =   2640
-         Width           =   4335
+         Top             =   2400
+         Width           =   1260
       End
       Begin VB.TextBox Text1 
          DataField       =   "ROLL_NO"
