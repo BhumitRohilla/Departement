@@ -6,8 +6,8 @@ Begin VB.Form Form1
    ClientTop       =   2850
    ClientWidth     =   8910
    LinkTopic       =   "Form1"
-   ScaleHeight     =   6405
-   ScaleWidth      =   8910
+   ScaleHeight     =   10935
+   ScaleWidth      =   20250
    Begin VB.TextBox Text3 
       Height          =   855
       Left            =   2040
@@ -94,7 +94,6 @@ Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
 Private Sub Command1_Click()
 Dim optionDEC As Boolean
-
 optionDEC = Option1.Value
 
 Dim num1 As Double
@@ -129,6 +128,5 @@ Text3.Text = Int(resultDob)
 Else
 Text3.Text = resultDob
 End If
-
 End Sub
 

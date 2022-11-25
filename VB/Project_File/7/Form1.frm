@@ -36,9 +36,33 @@ Begin VB.Form Form1
       TabIndex        =   2
       Top             =   840
       Width           =   5415
+      Begin VB.CommandButton Command3 
+         Caption         =   "Save"
+         Height          =   255
+         Left            =   3120
+         TabIndex        =   9
+         Top             =   3480
+         Width           =   975
+      End
+      Begin VB.CommandButton Command2 
+         Caption         =   "Delete"
+         Height          =   255
+         Left            =   1920
+         TabIndex        =   8
+         Top             =   3480
+         Width           =   975
+      End
+      Begin VB.CommandButton Command1 
+         Caption         =   "Update"
+         Height          =   255
+         Left            =   4320
+         TabIndex        =   7
+         Top             =   3480
+         Width           =   975
+      End
       Begin VB.Data Data1 
          Connect         =   "Access"
-         DatabaseName    =   "C:\Users\Bhumit\Documents\GitHub\Departement\VB\Project_File\6\database.mdb"
+         DatabaseName    =   "C:\Users\Bhumit\Documents\GitHub\Departement\VB\Project_File\7\database.mdb"
          DefaultCursorType=   0  'DefaultCursor
          DefaultType     =   2  'UseODBC
          Exclusive       =   0   'False
@@ -92,3 +116,6 @@ Attribute VB_GlobalNameSpace = False
 Attribute VB_Creatable = False
 Attribute VB_PredeclaredId = True
 Attribute VB_Exposed = False
+Private Sub Command1_Click()
+
+End Sub
