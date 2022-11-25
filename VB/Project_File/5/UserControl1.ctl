@@ -10,7 +10,6 @@ Begin VB.UserControl UserControl1
       Height          =   735
       Left            =   1440
       TabIndex        =   1
-      Text            =   "Text2"
       Top             =   1080
       Width           =   2535
    End
