@@ -1,4 +1,2 @@
 # Departement
-This is the backup of the program done in department computer
-
-THis is new commmit
+This is the backup of the program done in department computer.
